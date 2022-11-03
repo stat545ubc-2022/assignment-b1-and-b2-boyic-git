@@ -33,13 +33,13 @@ in the input. I call this function `group_into`.
 #' new column which is a categorical variable with values depending on the values 
 #' requested by the user.
 #'
-#' @param table original table need to be modified (it makes sense to name the 
-#` variable simple like a single word "table")
+#' @param table original table need to be modified (it makes sense to name the
+#' variable simple like a single word "table")
 #' @param source_name name of the column to be categorized (the name is intuitive)
 #' @param new_name name of the new column which has categorized values (the name 
-#` is intuitive)
+#' is intuitive)
 #' @param categories a vector of categories, it needs to be in ascending order
-#`(because the element in the vector is a category so I take the plural form)
+#' (because the element in the vector is a category so I take the plural form)
 #'
 #' @return the table with a new categorical column
 #' @export
