@@ -16,7 +16,8 @@
 #' @export
 #'
 #' @examples 
-#' new_cancer_sample <- group_into(cancer_sample, "area_mean", "area", c("Small", "Medium", "Large"))
+#' sample <- data.frame("value"=1:10)
+#' (grouped_sample <- group_into(sample, "value", "group", c("Small", "Medium", "Large")))
 group_into <- function(table, source_name, new_name, categories) {
   # check if source_name in the table
   stopifnot(source_name %in% colnames(table))

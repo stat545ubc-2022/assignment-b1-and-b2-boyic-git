@@ -24,5 +24,6 @@ new column which is a categorical variable with values depending on the values
 requested by the user.
 }
 \examples{
-new_cancer_sample <- group_into(cancer_sample, "area_mean", "area", c("Small", "Medium", "Large"))
+sample <- data.frame("value"=1:10)
+(grouped_sample <- group_into(sample, "value", "group", c("Small", "Medium", "Large")))
 }

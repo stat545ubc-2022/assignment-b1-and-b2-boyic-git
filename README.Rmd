@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# groupInto
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `groupInto` is to automatically create a group of categorical values 
+by dividing the numerical values into equal parts. User can easily create such 
+column by giving source column and desired group names. 
+
+## Installation
+
+You can install the development version of groupInto from [GitHub](https://github.com/) with:
+
+```{r}
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-boyic-git", ref="b2")
+```
+
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(groupInto)
+## basic example code
+sample <- data.frame("value"=1:10)
+(grouped_sample <- group_into(sample, "value", "group", c("Small", "Medium", "Large")))
+```
+
