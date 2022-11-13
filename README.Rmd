@@ -26,9 +26,9 @@ column by giving source column and desired group names.
 
 You can install the development version of groupInto from [GitHub](https://github.com/) with:
 
-```{r}
+``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-boyic-git", ref="b2")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-boyic-git", ref="1.0.0")
 ```
 
 
