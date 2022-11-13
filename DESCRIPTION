@@ -2,7 +2,8 @@ Package: groupInto
 Title: group_into to group rows into a new categorical variable
 Version: 1.0.0
 Authors@R: 
-    person("Boyi", "Chen", , "boyic@student.ubc.ca")
+    person("Boyi", "Chen", , "boyic@student.ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "N/A"))
 Description: The goal of `groupInto` is to automatically create a group of categorical values by dividing the numerical values into equal parts. User can easily create such column by giving source column and desired group names. 
 License: MIT + file LICENSE
 Encoding: UTF-8
